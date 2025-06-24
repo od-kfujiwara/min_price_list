@@ -6,12 +6,17 @@ import { writeFileSync } from 'fs';
   const baseUrl = 'https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form';
   const results: string[] = [];
 
+  // 開始日: 今日
+  let current = new Date();
+  // 終了日: 2ヶ月後の末日（3ヶ月目の0日＝末日）
+  const endDate = new Date(current.getFullYear(), current.getMonth() + 3, 0);
+
   // ヘッダー行を追加
   results.push('date\tlocation\tprice\thotel');
 
-  for (let day = 1; day <= 1; day++) {
-    const dateStr = `2025-07-${String(day).padStart(2, '0')}`;
-    const dp_ymd = `202507${String(day).padStart(2, '0')}`;
+  while (current <= endDate) {
+    const dateStr = current.toISOString().slice(0, 10); // YYYY-MM-DD
+    const dp_ymd = dateStr.replace(/-/g, '');
     const url = `${baseUrl}#dp_ymd=${dp_ymd}&dsp_sort=2&hotel_rank=4,5`;
 
     const context = await browser.newContext();
@@ -35,12 +40,14 @@ import { writeFileSync } from 'fs';
       await page.close();
       await context.close();
     }
+    // 次の日へ
+    current.setDate(current.getDate() + 1);
   }
 
   await browser.close();
 
   // 同じディレクトリに price.tsv として保存
-  const outputPath = new URL('../src/data/price.tsv', import.meta.url);
+  const outputPath = new URL('../src/data/prices.tsv', import.meta.url);
   writeFileSync(outputPath, results.join('\n'), 'utf-8');
 
   console.log(`✅ price.tsv に保存しました: ${outputPath}`);

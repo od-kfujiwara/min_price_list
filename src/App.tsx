@@ -1,6 +1,6 @@
 /**
  * ホテル最安値カレンダーアプリケーション
- * 
+ *
  * 4都市のホテル価格データを月別カレンダー形式で表示し、
  * 最安値の日付を視覚的に強調表示するReactアプリケーション
  */
@@ -33,7 +33,7 @@ const App: React.FC = () => {
     const today = new Date();
     const currentMonth = today.getMonth(); // 0ベース（0=1月, 11=12月）
     const currentYear = today.getFullYear();
-    
+
     const nextMonths = [];
     // 今月、来月、再来月の3ヶ月分を生成
     for (let i = 0; i < 3; i++) {
@@ -49,26 +49,26 @@ const App: React.FC = () => {
   return (
     <div className="app">
       <h1>ホテル最安値カレンダー</h1>
-      
+
       {/* 検索条件表示 */}
       <div className="search-conditions">
         大人2名1泊2日 ホテルランク星4以上のホテルを表示しています
       </div>
-      
+
       {/* 都市選択タブ */}
       <LocationTabs
         locations={locations}
         selectedLocation={selectedLocation}
         onLocationChange={setSelectedLocation}
       />
-      
+
       {/* 月選択タブ */}
       <MonthTabs
         months={months}
         selectedMonthIndex={selectedMonth}
         onMonthChange={setSelectedMonth}
       />
-      
+
       {/* 月データが読み込み完了後にカレンダーを表示 */}
       {months.length > 0 && (
         <Calendar
