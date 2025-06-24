@@ -233,6 +233,24 @@ h1 {
   }
 }
 
+/* 最安値の料金文字を特別に強調 */
+.calendar-cell.min-price .price {
+  color: #FFD700 !important;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 0 8px rgba(255, 215, 0, 0.3) !important;
+  animation: priceGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes priceGlow {
+  0% {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 0 8px rgba(255, 215, 0, 0.3);
+  }
+  100% {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 0 12px rgba(255, 215, 0, 0.5);
+  }
+}
+
 /* レスポンシブデザイン */
 @media (max-width: 768px) {
   .app {
@@ -270,6 +288,10 @@ h1 {
   .calendar-cell .price {
     font-size: 16px;
   }
+
+  .calendar-cell.min-price .price {
+    font-size: 18px !important;
+  }
 }
 
 @media (max-width: 480px) {
@@ -280,6 +302,10 @@ h1 {
 
   .calendar-cell .price {
     font-size: 14px;
+  }
+
+  .calendar-cell.min-price .price {
+    font-size: 16px !important;
   }
 
   .location-tabs,
