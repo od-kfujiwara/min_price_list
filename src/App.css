@@ -10,7 +10,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f5f5f5;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
 }
 
 .app {
@@ -21,9 +22,11 @@ body {
 
 h1 {
   text-align: center;
-  color: #333;
+  color: white;
   margin-bottom: 30px;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: 800;
 }
 
 /* タブのスタイル */
@@ -37,33 +40,38 @@ h1 {
 }
 
 .tab {
-  padding: 10px 20px;
+  padding: 12px 24px;
   border: none;
-  background-color: #e0e0e0;
-  color: #666;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #555;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 25px;
   font-size: 16px;
+  font-weight: 600;
   transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .tab:hover {
-  background-color: #d0d0d0;
+  background-color: rgba(255, 255, 255, 1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .tab.active {
-  background-color: #007bff;
+  background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
   color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
 }
 
 /* カレンダーのスタイル */
 .calendar-container {
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
 }
 
 .calendar {
@@ -81,20 +89,23 @@ h1 {
 
 .calendar-cell {
   background-color: #f9f9f9;
-  border-radius: 8px;
-  padding: 10px;
-  min-height: 80px;
+  border-radius: 12px;
+  padding: 12px;
+  min-height: 85px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   transition: all 0.3s ease;
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .calendar-cell:hover:not(.past) {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .calendar-cell.empty {
@@ -109,9 +120,11 @@ h1 {
 }
 
 .calendar-cell .day {
-  font-weight: bold;
-  margin-bottom: 5px;
-  color: #333;
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 4px;
+  color: #555;
+  text-align: center;
 }
 
 .calendar-cell.past .day {
@@ -119,59 +132,103 @@ h1 {
 }
 
 .calendar-cell .price {
-  font-size: 14px;
-  color: #666;
-  font-weight: 500;
+  font-size: 18px;
+  color: #333;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.2;
 }
 
-/* 価格の強度によるスタイル */
+/* カラフルな価格帯別スタイル */
 .calendar-cell.intensity-5 {
-  background-color: #28a745;
+  background: linear-gradient(135deg, #4FC3F7 0%, #29B6F6 100%);
   color: white;
 }
 
 .calendar-cell.intensity-5 .day,
 .calendar-cell.intensity-5 .price {
   color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .calendar-cell.intensity-4 {
-  background-color: #5cb85c;
+  background: linear-gradient(135deg, #66BB6A 0%, #4CAF50 100%);
   color: white;
 }
 
 .calendar-cell.intensity-4 .day,
 .calendar-cell.intensity-4 .price {
   color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .calendar-cell.intensity-3 {
-  background-color: #f0ad4e;
+  background: linear-gradient(135deg, #FFB74D 0%, #FF9800 100%);
+  color: white;
+}
+
+.calendar-cell.intensity-3 .day,
+.calendar-cell.intensity-3 .price {
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .calendar-cell.intensity-2 {
-  background-color: #f7c17d;
+  background: linear-gradient(135deg, #F06292 0%, #E91E63 100%);
+  color: white;
+}
+
+.calendar-cell.intensity-2 .day,
+.calendar-cell.intensity-2 .price {
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .calendar-cell.intensity-1 {
-  background-color: #fde6d2;
+  background: linear-gradient(135deg, #BA68C8 0%, #9C27B0 100%);
+  color: white;
+}
+
+.calendar-cell.intensity-1 .day,
+.calendar-cell.intensity-1 .price {
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* 最安値のアニメーション */
 .calendar-cell.min-price {
   animation: pulse 2s infinite;
-  border: 2px solid #28a745;
+  border: 3px solid #4FC3F7;
+  position: relative;
+}
+
+.calendar-cell.min-price::before {
+  content: '✨';
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  font-size: 16px;
+  animation: sparkle 1.5s infinite;
 }
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7);
+    box-shadow: 0 0 0 0 rgba(79, 195, 247, 0.7);
   }
   70% {
-    box-shadow: 0 0 0 10px rgba(40, 167, 69, 0);
+    box-shadow: 0 0 0 12px rgba(79, 195, 247, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+    box-shadow: 0 0 0 0 rgba(79, 195, 247, 0);
+  }
+}
+
+@keyframes sparkle {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.2) rotate(180deg);
   }
 }
 
@@ -210,7 +267,7 @@ h1 {
   }
 
   .calendar-cell .price {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
@@ -221,7 +278,7 @@ h1 {
   }
 
   .calendar-cell .price {
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .location-tabs,
