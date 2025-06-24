@@ -138,6 +138,15 @@ h1 {
   line-height: 1.2;
 }
 
+.calendar-cell .price .currency,
+.calendar-cell .price .suffix {
+  font-size: 0.85em;
+}
+
+.calendar-cell .price .amount {
+  font-size: 1em;
+}
+
 /* 落ち着いた価格帯別スタイル */
 .calendar-cell.intensity-5 {
   background-color: #2ecc71;
@@ -234,11 +243,16 @@ h1 {
 
 /* 最安値の料金文字を特別に強調 */
 .calendar-cell.min-price .price {
-  color: #FFD700 !important;
   font-size: 20px !important;
   font-weight: 800 !important;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 0 8px rgba(255, 215, 0, 0.3) !important;
   animation: priceGlow 2s ease-in-out infinite alternate;
+}
+
+.calendar-cell.min-price .price .currency,
+.calendar-cell.min-price .price .amount,
+.calendar-cell.min-price .price .suffix {
+  color: #FFD700 !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 0 8px rgba(255, 215, 0, 0.3) !important;
 }
 
 @keyframes priceGlow {
@@ -291,6 +305,11 @@ h1 {
   .calendar-cell.min-price .price {
     font-size: 18px !important;
   }
+
+  .calendar-cell .price .currency,
+  .calendar-cell .price .suffix {
+    font-size: 0.85em;
+  }
 }
 
 @media (max-width: 480px) {
@@ -305,6 +324,11 @@ h1 {
 
   .calendar-cell.min-price .price {
     font-size: 16px !important;
+  }
+
+  .calendar-cell .price .currency,
+  .calendar-cell .price .suffix {
+    font-size: 0.85em;
   }
 
   .location-tabs,

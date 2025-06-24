@@ -31,7 +31,9 @@ const PriceCell: React.FC<PriceCellProps> = ({ day, price, hotel, isPast, isMinP
       <div className="day">{day}</div>
       {price && (
         <div className="price">
-          ¥{price.toLocaleString()}
+          <span className="currency">¥</span>
+          <span className="amount">{price.toLocaleString()}</span>
+          <span className="suffix">～</span>
         </div>
       )}
     </div>
