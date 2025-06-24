@@ -175,25 +175,25 @@ h1 {
 }
 
 .calendar-cell.intensity-2 {
-  background-color: #ffeaa7;
-  color: #e17055;
-  border: 1px solid #fdcb6e;
+  background-color: #f8f6f0;
+  color: #6c757d;
+  border: 1px solid #dee2e6;
 }
 
 .calendar-cell.intensity-2 .day,
 .calendar-cell.intensity-2 .price {
-  color: #e17055;
+  color: #6c757d;
 }
 
 .calendar-cell.intensity-1 {
-  background-color: #fab1a0;
-  color: #d63031;
-  border: 1px solid #e17055;
+  background-color: #f5f3f3;
+  color: #6c757d;
+  border: 1px solid #dee2e6;
 }
 
 .calendar-cell.intensity-1 .day,
 .calendar-cell.intensity-1 .price {
-  color: #d63031;
+  color: #6c757d;
 }
 
 /* 最安値のアニメーション */
