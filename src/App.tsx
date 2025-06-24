@@ -50,6 +50,11 @@ const App: React.FC = () => {
     <div className="app">
       <h1>ホテル最安値カレンダー</h1>
       
+      {/* 検索条件表示 */}
+      <div className="search-conditions">
+        大人2名1泊2日 ホテルランク星4以上のホテルを表示しています
+      </div>
+      
       {/* 都市選択タブ */}
       <LocationTabs
         locations={locations}

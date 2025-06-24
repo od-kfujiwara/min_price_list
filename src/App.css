@@ -23,9 +23,25 @@ body {
 h1 {
   text-align: center;
   color: #2c3e50;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 2.5rem;
   font-weight: 800;
+}
+
+/* 検索条件表示 */
+.search-conditions {
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 12px 20px;
+  border-radius: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* タブのスタイル */
@@ -272,7 +288,14 @@ h1 {
 
   h1 {
     font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .search-conditions {
+    font-size: 14px;
+    padding: 10px 16px;
     margin-bottom: 20px;
+    max-width: 90%;
   }
 
   .tab {
@@ -313,6 +336,12 @@ h1 {
 }
 
 @media (max-width: 480px) {
+  .search-conditions {
+    font-size: 13px;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+  }
+
   .calendar-cell {
     min-height: 50px;
     padding: 5px;
