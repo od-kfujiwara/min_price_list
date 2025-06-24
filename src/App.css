@@ -103,7 +103,7 @@ h1 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-.calendar-cell:hover:not(.past) {
+.calendar-cell:hover:not(.past):not(.empty) {
   transform: translateY(-3px) scale(1.02);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
