@@ -243,8 +243,8 @@ h1 {
 
 /* 最安値の料金文字を特別に強調 */
 .calendar-cell.min-price .price {
-  font-size: 20px !important;
-  font-weight: 800 !important;
+  font-size: 20px; /* Font size for the price text */
+  font-weight: 800;
   animation: priceGlow 2s ease-in-out infinite alternate;
 }
 
@@ -303,7 +303,7 @@ h1 {
   }
 
   .calendar-cell.min-price .price {
-    font-size: 18px !important;
+    font-size: 18px; /* Tablet: Smaller font size for better fit */
   }
 
   .calendar-cell .price .currency,
@@ -323,7 +323,7 @@ h1 {
   }
 
   .calendar-cell.min-price .price {
-    font-size: 16px !important;
+    font-size: 16px; /* Mobile: Even smaller font size */
   }
 
   .calendar-cell .price .currency,
