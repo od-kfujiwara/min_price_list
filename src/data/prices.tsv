@@ -1,69 +1,37 @@
-date	location	price	hotel
-2025-06-24	東京	7774	レジデンスコンドミニアム　カラハーイ
-2025-06-25	東京	8450	Ｂ／Ｃ　ＡＰＡＲＴＭＥＮＴ　浅草花園通　レンタカー／サウナ付きホテル
-2025-06-26	東京	9002	ホテルトラスティ東京ベイサイド
-2025-06-27	東京	9002	ホテルトラスティ東京ベイサイド
-2025-06-28	東京	14080	パールホテル茅場町
-2025-06-29	東京	7236	パールホテル茅場町
-2025-06-30	東京	6520	レジデンスコンドミニアム　カラハーイ
-2025-07-01	東京	6528	レジデンスコンドミニアム　カラハーイ
-2025-07-02	東京	6528	レジデンスコンドミニアム　カラハーイ
-2025-07-03	東京	6528	レジデンスコンドミニアム　カラハーイ
-2025-07-04	東京	8852	パールホテル茅場町
-2025-07-05	東京	13162	レジデンスコンドミニアム　カラハーイ
-2025-07-06	東京	7086	パールホテル茅場町
-2025-07-07	東京	7500	ベッセルイン浅草　つくばエクスプレス（上野・浅草・雷門・スカイツリー）
-2025-07-08	東京	8050	パールホテル茅場町
-2025-07-09	東京	8992	パールホテル茅場町
-2025-07-10	東京	9408	レジデンスコンドミニアム　カラハーイ
-2025-07-11	東京	9300	パールホテル茅場町
-2025-07-12	東京	12680	パールホテル茅場町
-2025-07-13	東京	7118	パールホテル茅場町
-2025-07-14	東京	8296	パールホテル茅場町
-2025-07-15	東京	8914	パールホテル茅場町
-2025-07-16	東京	7122	レジデンスコンドミニアム　カラハーイ
-2025-07-17	東京	9940	レジデンスコンドミニアム　カラハーイ
-2025-07-18	東京	9636	アートホテル日暮里　ラングウッド
-2025-07-19	東京	13898	パールホテル茅場町
-2025-07-20	東京	12958	パールホテル茅場町
-2025-07-21	東京	7252	パールホテル茅場町
-2025-07-22	東京	8260	パールホテル茅場町
-2025-07-23	東京	9642	アートホテル日暮里　ラングウッド
-2025-07-24	東京	8856	アートホテル日暮里　ラングウッド
-2025-07-25	東京	10810	パールホテル茅場町
-2025-07-26	東京	13898	パールホテル茅場町
-2025-07-27	東京	7252	パールホテル茅場町
-2025-07-28	東京	9796	レジデンスコンドミニアム　カラハーイ
-2025-07-29	東京	9796	レジデンスコンドミニアム　カラハーイ
-2025-07-30	東京	9796	レジデンスコンドミニアム　カラハーイ
-2025-07-31	東京	9796	レジデンスコンドミニアム　カラハーイ
-2025-08-01	東京	10810	パールホテル茅場町
-2025-08-02	東京	12680	パールホテル茅場町
-2025-08-03	東京	8830	パールホテル茅場町
-2025-08-04	東京	9900	パールホテル茅場町
-2025-08-05	東京	7714	レジデンスコンドミニアム　カラハーイ
-2025-08-06	東京	8010	レジデンスコンドミニアム　カラハーイ
-2025-08-07	東京	8010	レジデンスコンドミニアム　カラハーイ
-2025-08-08	東京	10810	パールホテル茅場町
-2025-08-09	東京	13500	第一ホテル両国
-2025-08-10	東京	11980	葡萄の長屋
-2025-08-11	東京	8830	パールホテル茅場町
-2025-08-12	東京	10810	パールホテル茅場町
-2025-08-13	東京	10000	ベッセルイン浅草　つくばエクスプレス（上野・浅草・雷門・スカイツリー）
-2025-08-14	東京	10334	ベッセルイン浅草　つくばエクスプレス（上野・浅草・雷門・スカイツリー）
-2025-08-15	東京	10000	ベッセルイン浅草　つくばエクスプレス（上野・浅草・雷門・スカイツリー）
-2025-08-16	東京	11870	レジデンスコンドミニアム　カラハーイ
-2025-08-17	東京	8830	パールホテル茅場町
-2025-08-18	東京	9280	ホテルトラスティ東京ベイサイド
-2025-08-19	東京	10172	レジデンスコンドミニアム　カラハーイ
-2025-08-20	東京	10552	レジデンスコンドミニアム　カラハーイ
-2025-08-21	東京	10552	レジデンスコンドミニアム　カラハーイ
-2025-08-22	東京	10108	ベッセルイン浅草　つくばエクスプレス（上野・浅草・雷門・スカイツリー）
-2025-08-23	東京	13500	第一ホテル両国
-2025-08-24	東京	8830	パールホテル茅場町
-2025-08-25	東京	9796	レジデンスコンドミニアム　カラハーイ
-2025-08-26	東京	9796	レジデンスコンドミニアム　カラハーイ
-2025-08-27	東京	10040	ホテルモントレ　ラ・スールギンザ
-2025-08-28	東京	10040	ホテルモントレ　ラ・スールギンザ
-2025-08-29	東京	10800	パールホテル茅場町
-2025-08-30	東京	12330	パールホテル茅場町
+date	location	price	hotel	url
+2025-06-25	東京	8018	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250625&dsp_sort=2&hotel_rank=4,5
+2025-06-26	東京	9002	ホテルトラスティ東京ベイサイド	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250626&dsp_sort=2&hotel_rank=4,5
+2025-06-27	東京	9000	ホテルトラスティ東京ベイサイド	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250627&dsp_sort=2&hotel_rank=4,5
+2025-06-28	東京	14080	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250628&dsp_sort=2&hotel_rank=4,5
+2025-06-29	東京	7164	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250629&dsp_sort=2&hotel_rank=4,5
+2025-06-30	東京	7122	レジデンスコンドミニアム　カラハーイ	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250630&dsp_sort=2&hotel_rank=4,5
+2025-07-01	東京	6528	レジデンスコンドミニアム　カラハーイ	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250701&dsp_sort=2&hotel_rank=4,5
+2025-07-02	東京	6528	レジデンスコンドミニアム　カラハーイ	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250702&dsp_sort=2&hotel_rank=4,5
+2025-07-03	東京	6528	レジデンスコンドミニアム　カラハーイ	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250703&dsp_sort=2&hotel_rank=4,5
+2025-07-04	東京	8752	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250704&dsp_sort=2&hotel_rank=4,5
+2025-07-05	東京	14960	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250705&dsp_sort=2&hotel_rank=4,5
+2025-07-06	東京	7028	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250706&dsp_sort=2&hotel_rank=4,5
+2025-07-07	東京	7500	ベッセルイン浅草　つくばエクスプレス（上野・浅草・雷門・スカイツリー）	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250707&dsp_sort=2&hotel_rank=4,5
+2025-07-08	東京	7982	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250708&dsp_sort=2&hotel_rank=4,5
+2025-07-09	東京	8800	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250709&dsp_sort=2&hotel_rank=4,5
+2025-07-10	東京	9042	レジデンスコンドミニアム　カラハーイ	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250710&dsp_sort=2&hotel_rank=4,5
+2025-07-11	東京	9270	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250711&dsp_sort=2&hotel_rank=4,5
+2025-07-12	東京	12680	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250712&dsp_sort=2&hotel_rank=4,5
+2025-07-13	東京	7114	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250713&dsp_sort=2&hotel_rank=4,5
+2025-07-14	東京	8286	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250714&dsp_sort=2&hotel_rank=4,5
+2025-07-15	東京	8912	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250715&dsp_sort=2&hotel_rank=4,5
+2025-07-16	東京	7122	レジデンスコンドミニアム　カラハーイ	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250716&dsp_sort=2&hotel_rank=4,5
+2025-07-17	東京	9042	レジデンスコンドミニアム　カラハーイ	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250717&dsp_sort=2&hotel_rank=4,5
+2025-07-18	東京	10600	アートホテル日暮里　ラングウッド	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250718&dsp_sort=2&hotel_rank=4,5
+2025-07-19	東京	13898	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250719&dsp_sort=2&hotel_rank=4,5
+2025-07-20	東京	11314	ＣＡＮＤＥＯ　ＨＯＴＥＬＳ（カンデオホテルズ）上野公園	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250720&dsp_sort=2&hotel_rank=4,5
+2025-07-21	東京	7178	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250721&dsp_sort=2&hotel_rank=4,5
+2025-07-22	東京	8178	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250722&dsp_sort=2&hotel_rank=4,5
+2025-07-23	東京	9796	レジデンスコンドミニアム　カラハーイ	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250723&dsp_sort=2&hotel_rank=4,5
+2025-07-24	東京	9052	アートホテル日暮里　ラングウッド	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250724&dsp_sort=2&hotel_rank=4,5
+2025-07-25	東京	10712	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250725&dsp_sort=2&hotel_rank=4,5
+2025-07-26	東京	14630	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250726&dsp_sort=2&hotel_rank=4,5
+2025-07-27	東京	7190	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250727&dsp_sort=2&hotel_rank=4,5
+2025-07-28	東京	8450	パールホテル茅場町	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250728&dsp_sort=2&hotel_rank=4,5
+2025-07-29	東京	9796	レジデンスコンドミニアム　カラハーイ	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250729&dsp_sort=2&hotel_rank=4,5
+2025-07-30	東京	9796	レジデンスコンドミニアム　カラハーイ	https://www.tour.ne.jp/j_hotel/list/?city1=10299&coty1=1&dist1=3&refpage=form#dp_ymd=20250730&dsp_sort=2&hotel_rank=4,5
