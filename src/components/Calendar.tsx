@@ -105,6 +105,7 @@ const Calendar: React.FC<CalendarProps> = ({ year, month, location, priceData })
           day={day}
           price={priceInfo?.price}
           hotel={priceInfo?.hotel}
+          url={priceInfo?.url}
           isPast={isPast}
           isMinPrice={priceInfo?.price === minPrice && minPrice > 0} // 最安値且つ有効なデータがある場合
           minPriceOfMonth={minPrice}

@@ -10,6 +10,8 @@ interface PriceCellProps {
   price?: number;
   /** ホテル名 */
   hotel?: string;
+  /** 予約URL */
+  url?: string;
   /** 過去の日付かどうか */
   isPast: boolean;
   /** その月の最安値かどうか */
@@ -18,7 +20,7 @@ interface PriceCellProps {
   minPriceOfMonth: number;
 }
 
-const PriceCell: React.FC<PriceCellProps> = ({ day, price, hotel, isPast, isMinPrice, minPriceOfMonth }) => {
+const PriceCell: React.FC<PriceCellProps> = ({ day, price, hotel, url, isPast, isMinPrice, minPriceOfMonth }) => {
   /**
    * 価格の高さに応じた強度レベルを算出
    * 最安値との比率で色の濃さを分類
@@ -39,10 +41,17 @@ const PriceCell: React.FC<PriceCellProps> = ({ day, price, hotel, isPast, isMinP
 
   const intensity = getPriceIntensity();
   
+  const handleClick = () => {
+    if (url && !isPast) {
+      window.open(url, '_blank', 'noopener,noreferrer');
+    }
+  };
+  
   return (
     <div 
-      className={`calendar-cell ${isPast ? 'past' : ''} ${isMinPrice ? 'min-price' : ''} ${price ? `intensity-${intensity}` : ''}`}
+      className={`calendar-cell ${isPast ? 'past' : ''} ${isMinPrice ? 'min-price' : ''} ${price ? `intensity-${intensity}` : ''} ${url && !isPast ? 'clickable' : ''}`}
       title={hotel} // ホバー時にホテル名を表示
+      onClick={handleClick}
     >
       {/* 日付表示 */}
       <div className="day">{day}</div>

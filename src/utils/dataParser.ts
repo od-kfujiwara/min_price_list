@@ -10,6 +10,8 @@ export interface PriceData {
   price: number;
   /** ホテル名 */
   hotel: string;
+  /** 予約URL */
+  url?: string;
 }
 
 /**
@@ -28,7 +30,8 @@ export const parseTSV = (tsvContent: string): PriceData[] => {
       date: values[0],
       location: values[1],
       price: parseInt(values[2]), // 文字列を数値に変換
-      hotel: values[3]
+      hotel: values[3],
+      url: values[4] || undefined // URL列が存在する場合は追加
     };
   });
 };
