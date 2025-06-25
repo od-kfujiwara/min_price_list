@@ -123,6 +123,10 @@ h1 {
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
+.calendar-cell.clickable {
+  cursor: pointer;
+}
+
 .calendar-cell.empty {
   background-color: transparent;
   cursor: default;
