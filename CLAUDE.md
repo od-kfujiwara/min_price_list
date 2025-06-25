@@ -42,6 +42,6 @@ npm run preview  # ビルド結果プレビュー
 - コメント追加（PR #3）
 
 ## メンテナンス注意点
-- TSVデータ形式: `date	location	price	hotel`
+- TSVデータ形式: `date	location	price	hotel	url`
 - CSS intensityクラス: 価格帯による色分け制御
 - Vite設定: TSVファイル読み込み（`vite.config.ts`）
