@@ -48,7 +48,7 @@ const App: React.FC = () => {
 
   return (
     <div className="app">
-      <h1>ホテル最安値カレンダー</h1>
+      <h1>トラベルコ国内ホテル最安値カレンダー</h1>
 
       {/* 検索条件表示 */}
       <div className="search-conditions">
